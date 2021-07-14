@@ -5,19 +5,22 @@ import Card from "@material-ui/core/Card";
 
 import "../../styles/HomeCard.css";
 
-const HomeCards = ({ title, discription, post }) => {
+const HomeCards = ({ breed_group, life_span, name, origin }) => {
   return (
     <>
       <Card className="reuseablecard">
         <CardContent>
           <Typography color="textSecondary" gutterBottom>
-            {title}
+            {name}
           </Typography>
           <Typography color="textSecondary" gutterBottom>
-            {discription}
+            {breed_group}
           </Typography>
           <Typography color="textSecondary" gutterBottom>
-            {post}
+            {life_span}
+          </Typography>
+          <Typography color="textSecondary" gutterBottom>
+            {origin}
           </Typography>
         </CardContent>
       </Card>
