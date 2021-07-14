@@ -1,0 +1,63 @@
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0px;
+  padding: 0px;
+}
+.reuseablecard {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  width: 30%;
+  height: 12rem;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media (min-width: 600px) {
+  .reuseablecard {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    width: 30%;
+    height: 12rem;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media (max-width: 600px) {
+  .reuseablecard {
+    display: flex;
+    flex-direction: column;
+    /* margin: 10px; */
+    width: 60%;
+    /* height: 12rem; */
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+}
+/* Medium devices (landscape tablets, 768px and up)
+@media only screen and (min-width: 768px) {
+}
+Large devices (laptops/desktops, 992px and up)
+@media only screen and (min-width: 992px) {
+  .loginmaincontainer {
+    background-color: gold;
+  }
+}
+Extra large devices (large laptops and desktops, 1200px and up)
+@media only screen and (min-width: 1200px) {
+  .loginmaincontainer {
+    background-color: gold;
+  }
+} */
