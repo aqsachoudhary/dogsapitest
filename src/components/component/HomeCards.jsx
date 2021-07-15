@@ -5,7 +5,14 @@ import Card from "@material-ui/core/Card";
 
 import "../../styles/HomeCard.css";
 
-const HomeCards = ({ breed_group, life_span, name, origin }) => {
+const HomeCards = ({
+  breed_group,
+  life_span,
+  name,
+  origin,
+  image,
+  reference_image_id,
+}) => {
   return (
     <>
       <Card className="reuseablecard">
@@ -13,6 +20,9 @@ const HomeCards = ({ breed_group, life_span, name, origin }) => {
           <Typography color="textSecondary" gutterBottom>
             {name}
           </Typography>
+          <img src={image} />
+          <img src={reference_image_id} />
+
           <Typography color="textSecondary" gutterBottom>
             {breed_group}
           </Typography>

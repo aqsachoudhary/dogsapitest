@@ -34,6 +34,8 @@ const HomePage = () => {
                 breed_group={c.breed_group}
                 life_span={c.life_span}
                 origin={c.origin}
+                image={c.image}
+                reference_image_id={c.reference_image_id}
               />
             ))}
         </div>
