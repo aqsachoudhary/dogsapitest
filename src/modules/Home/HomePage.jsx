@@ -96,7 +96,7 @@ const HomePage = () => {
                 />
               ))
             ) : (
-              <p> sorry you dont have any dog </p>
+              <p> sorry we dont have any dog </p>
             )}
           </div>
           {/* new state check and display card with dog info */}
