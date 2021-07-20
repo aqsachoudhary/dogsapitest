@@ -17,6 +17,11 @@ h5 {
   justify-content: center;
   cursor: pointer;
 }
+.image {
+  display: flex;
+
+  justify-content: center;
+}
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media (min-width: 600px) {
   .reuseablecard {
